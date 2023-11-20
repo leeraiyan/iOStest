@@ -276,7 +276,7 @@ Widget _buildSearchBarHome() {
           Align(
             alignment: Alignment.topLeft,
             child: Padding(
-              padding: EdgeInsets.only(left: 21.h, bottom: 21.v),
+              padding: EdgeInsets.only(left: 21.h),
               child: Text(
                 "lbl_daily_quote".tr,
                 style: theme.textTheme.headlineMedium,
@@ -344,7 +344,6 @@ Widget _buildSearchBarHome() {
   Widget _buildButtonNavigateTo() {
     return Container(
       width: 387.h,
-      height: 70.h,
       margin: EdgeInsets.only(left: 1.h),
       padding: EdgeInsets.symmetric(
         horizontal: 10.h,
